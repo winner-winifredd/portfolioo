@@ -3,9 +3,9 @@ import HeaderImage from "../../images/header_bg_2.jpg"
 import { MdEmail } from "react-icons/md"
 import {BsMessenger} from "react-icons/bs"
 import { IoLogoWhatsapp } from "react-icons/io"
-import "./contact.css"
+import "./gallery.css"
 
-const Contact = () => (
+const Gallery = () => (
   <>
     <Header title="Get  In Touch" image={HeaderImage}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis numquam eos est omnis aperiam maxime a quas,
@@ -44,4 +44,40 @@ const Contact = () => (
   </>
 )
 
-export default Contact
+export default Gallery
+
+// const Gallery = () => {
+
+//     // easily import images named orderly
+
+//     const Gallery = () =>{
+//         const gallerylength = 15;
+//         const images = []
+
+//         for (let i=1; i < gallerylength; i++){
+//             images.push(require(`../../images/gallery${i}.jpg`))
+//         }
+    
+//   return (
+//     <>
+//     <Header title="Our Gallery" image={HeaderImage}>
+//         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aliquam enim? Repellendus numquam rem vel 
+//         amet ab cum labore consectetur, delectus voluptate. Corporis animi quibusdam saepe repellendus optio temporibus ea.
+//     </Header>
+//     <section className="gallery">
+//         <div className="container gallery__container">
+//             {
+//                 images.map((image, index) => {
+//                     return <article key ={index}>
+//                         <img src={image} alt={`Gallery_image ${index + 1}`}/>
+//                     </article>
+//                 })
+//             }
+//         </div>
+//     </section>
+//     </>
+//   )
+//         }
+// }
+
+// export default Gallery

@@ -1,0 +1,23 @@
+.formm{
+    margin-left: 35%;
+    padding: 4%;
+    border: 2px solid white;
+    width: 35%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.btn_sbt{
+    padding: 3%;
+    width: 100%;
+    margin-top: 3rem;
+}
+.projects_wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects_title{
+    margin-right: -30%;
+}

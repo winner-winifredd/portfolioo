@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom"
-import Logo from "../images/logo.png"
+import Logo from "../images/logo.jpg"
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
 import { FaFacebookF } from "react-icons/fa"
 import { AiOutlineTwitter } from "react-icons/ai"
@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="container footer__container">
         <article>
             <Link to ="/">
-                <img src={Logo} alt="Footer Logo"/>
+                <img height="100" src={Logo} alt="Footer Logo"/>
             </Link>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sed enim laborum rem illum voluptate numquam. Necessitatibus 
@@ -27,23 +27,21 @@ const Footer = () => {
         <article>
             <h4>Permalinks</h4>
             <Link to="/about">About</Link>
-            <Link to="/plans">Plans</Link>
-            <Link to="/trainers">Trainers</Link>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/projects">Project</Link>
             <Link to="/contact">Contact</Link>
         </article>
         <article>
             <h4>Insights</h4>
-            <Link to="/s">Blog</Link>
-            <Link to="/s">Case</Link>
-            <Link to="/s">Events</Link>
-            <Link to="/s">Communities</Link>
-            <Link to="/s">FAQs</Link>
+            <Link to="/">Blog</Link>
+            <Link to="/">Case</Link>
+            <Link to="/">Events</Link>
+            <Link to="/">Communities</Link>
+            <Link to="/">FAQs</Link>
         </article>
         <article>
             <h4>Get In Touch</h4>
             <Link to="/contact">Contact Us</Link>
-            <Link to="/s">Support</Link>
+            <Link to="/">Support</Link>
            
         </article>
     </div>

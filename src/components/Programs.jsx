@@ -11,7 +11,7 @@ const Programs = () => {
         <div className="container programs__container">
            <SectionHead icon={<FaCrown/>} title="SERVICES"/>
         
-        <div className="programs_wrappeR">
+        <div className="programs_wrapper">
             {
                 programs.map(({id, icon, title, info, path}) => {
                     return(

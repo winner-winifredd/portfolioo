@@ -1,10 +1,10 @@
-/* BEFORE AND AFTER ALL ELEMENTS(CLEANING UP UNECESSARY SPACES) */
+/* BEFORE AND AFTER ALL ELEMENTS(CLEANING UP UNNECESSARY SPACES) */
 *,*::before, *::after{
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
-    /* removes only the bvullets */
+    /* removes only the bullets */
     list-style: none;  
     /* removes underlines */
     text-decoration: none;
@@ -15,15 +15,15 @@
 :root{
     --primary-hue: 210;
     --gray-hue: 240;
-    --color-primary: hsl(var(--primary-hue),100%, 50%);
+    --color-primary: hsl(var(--primary-hue),20%, 9%);
     --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-    --color-secondary: #ffb116;
+    --color-secondary: rgb(199, 255, 216);
     --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
     --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
-    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
-    --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
-    --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
-    --color-gray-600: hsl(var(--gray-hue), 48%, 1%);
+    --color-gray-300: rgb(173, 250, 231);
+    --color-gray-400: rgb(0, 6, 0);
+    --color-gray-500: red;
+    --color-gray-600: black;
 
     /* in mobile and large devices */
     --container-width-lg: 80%;
@@ -75,7 +75,7 @@ img{
 
 /* GENERAL BUTTON STYLES */
 .btn{
-    color: var(--color-gray-100);
+    color: var(--color-gray-400);
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
@@ -87,7 +87,10 @@ img{
     -o-border-radius: 1.5rem;
     font-weight: 600;
     transition: var(--transition);
-
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 .btn:hover{
@@ -312,7 +315,7 @@ section{
         height: 100vh;
     }
     .header__content p{
-        font-size: 0.85;
+        font-size: 0.85rem;
     }
     .main__header-image, .main__header-circle{
         display: none;
