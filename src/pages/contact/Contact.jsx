@@ -7,7 +7,7 @@ import "./contact.css"
 
 const Contact = () => (
   <>
-    <Header title="Get  In Touch" image={HeaderImage}>
+    <Header title="Get In Touch" image={HeaderImage}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis numquam eos est omnis aperiam maxime a quas,
       iure sed excepturi, laudantium consequatur, inventore totam rem voluptatibus ipsam nihil atque dolorem!
     </Header>
